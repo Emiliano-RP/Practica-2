@@ -21,3 +21,10 @@
 - Tener conexión a internet.
 ---
 #### Instrucciones:
+1. 
+
+
+
+
+
+![Foto de perfil](Imágenes/278746422_4751667654943452_7532415140118527715_n.jpeg)
