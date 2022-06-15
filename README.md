@@ -6,7 +6,7 @@
 </center>
 
 ---
-# Práctica 2. Cómo crear una imágen con ayuda de una Inteligencia Artificial.
+# Práctica 2. Cómo generar una imágen con inteligencia artificial (red generativa antagónica).
 <center>
 
 ![Imágen de una Inteligencia Artificial](Imágenes/Inteligencia-artificial.jpeg)
@@ -21,4 +21,19 @@
 - Tener conexión a internet.
 ---
 #### Instrucciones:
-1. 
+1. Para poder generar nuestra imagen nos dirigimos a [VQGAN+CLIP (z+quantize method con augmentations).ipynb](https://colab.research.google.com/drive/1go6YwMFe5MX6XM9tv-cnQiSTU50N9EeT#scrollTo=CppIQlPhhwhs).
+
+<center>
+
+![Captura de pantalla](Imágenes/Captura-de-pantalla-1.png)
+
+</center>
+
+2. 
+
+
+| Hola |---|---|---|
+    |---|---|---|---|
+    | Hola | Hola | Hola |
+    | Hola | Hola | Hola |
+    | Hola | Hola | Hola |
