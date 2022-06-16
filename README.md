@@ -64,4 +64,68 @@
     | `intervalo_imagenes` | `50` | Esto indica al programa cada cuantas iteraciones imprime el resultado en la página. Si se escribe 50, imprimirá los resultados de las iteraciones 0, 50, 100, 150, 200, etc. |
     | `imagen_inicial` | `None` | Para usar una imagen inicial, sólo debes subir un archivo al entorno del Colab (en la sección a la izquierda), y luego modificar `imagen_inicial`: poniendo el nombre exacto del archivo. Ejemplo: `sample.png`. |
     | `imagenes_objetivo` | `None` | Una o más imágenes que la IA tomará como "meta", cumpliendo la misma función que ponerle un texto. Es decir, la IA intentará imitar la imagen o imágenes. Se separan con `|`. |
-    | `seed` | `-1` | ---- |
+    | `seed` | `-1` | La semilla de esa imagen. -1 indica que la semilla será aleatoria cada vez. Al elegir -1 sólo verás en la interfaz de Colaboratory la semilla elegida en la celda "Hacer la ejecución", tal que así: `Using seed: 7613718202034261325`. Si quieres averiguar las iteraciones y semillas de las imágenes que has descargado, están en los comentarios de la imagen. En Linux los visores normales incorporan los comentarios. En Windows los visores por defecto no pueden ver los metadatos, pero con [Jeffrey's Image Metadata Viewer](http://exif.regex.info/down.html) los puedes ver. |
+    | `max_iteraciones` | `-1` | El número máximo de iteraciones antes de que el programa pare. Por defecto es -1, eso significa que el programa no va a parar a menos que no se cuelgue o se pare por otra razón. Se recomienda cambiarlo por un valor como `500`, `600`, `1000` o `3000`. Un número más alto a veces no es necesario (la variabilidad desciende a mayor número de iteraciones). Recuerda que hacer estos cálculos es muy costoso energéticamente (y si dejas demasiado tiempo la sesión realizando cálculos tendrás una limitación en Google Colaboratory). |
+
+<center>
+
+*[Tabla](https://tuscriaturas.miraheze.org/wiki/Ayuda:Generar_im%C3%A1genes_con_VQGAN%2BCLIP#Pasos_previos) tomada de ["El Bestiario del Hypogripho Dorado"](https://tuscriaturas.miraheze.org/wiki/El_Bestiario_del_Hypogripho_Dorado) por [Jakeukalane](https://www.deviantart.com/jakeukalane) y [Avengium](https://www.facebook.com/angel.monterolamas).*
+
+</center>
+
+Los **parámetros** mínimos que debemos de modificar para generar la imágen, son `textos` y `max_iteraciones`. Hay que tomar en cuenta que la IA está entrenada mucho más en inglés por lo que muchas veces el contexto es mejor introduciendo la entrada en inglés. Por ejemplo, en la siguiente imagen se observa la palabra `Chemistry` con un número de iteraciones de `2000`.
+
+<center>
+
+![Captura de pantalla](Imágenes/Captura-de-pantalla-5.png)
+
+</center>
+
+6. Damos cilck en la casilla de **"Entrono de ejecución"** y daremos click en **"Ejecutar todo"**.
+
+<center>
+
+![Captura de pantalla](Imágenes/Captura-de-pantalla-6.png)
+![Captura de pantalla](Imágenes/Captura-de-pantalla-7.png)
+
+</center>
+
+7. Si nos sale una **Advertencia**, damos click en **"Ejecutar de todos modos"**.
+
+<center>
+
+![Captura de pantalla](Imágenes/Captura-de-pantalla-8.png)
+
+</center>
+
+8. Cuando aparezca el texto `El vídeo está listo` podemos descargar el video o si no lo podemos visualizar en el navegador.
+
+<center>
+
+![Captura de pantalla](Imágenes/Captura-de-pantalla-9.png)
+
+</center>
+
+9. Una vez descargado el video ya lo podemos visualizar.
+
+<center>
+
+![Captura de pantalla](Imágenes/Captura-de-pantalla-10.png)
+
+</center>
+
+# Fin.
+---
+#### Por [Emiliano Rodríguez Pérez](https://github.com/Emiliano-RP) #IA Wizards
+- ##### Instagram: [@_emiliano_rp](https://www.instagram.com/_emiliano_rp/)
+- ##### Facebook: [Emiliano Rodríguez Pérez](https://www.facebook.com/emiliano.rodriguezperez.94/)
+
+<center>
+
+![Foto de perfil](Imágenes/278746422_4751667654943452_7532415140118527715_n.jpeg)
+
+</center>
+
+---
+
+
