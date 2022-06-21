@@ -29,7 +29,7 @@
 
 </center>
 
-2. Damos click en **Conectar** para que se asigne una máquina virtual.
+2. Damos click en **"Conectar"** para que se asigne una máquina virtual.
 
 <center>
 
@@ -53,7 +53,7 @@
 
 </center>
 
-5. Posteriormente debajo de **"Herramientas para la ejecución"**, encontraramos los **"Parámetros"**, los cuales podemos modificar para que la IA genere la imagen con las características que deseemos. Aquí te dejo una tabla de los parámetros que podemos modificar, su descripción y el texto predeterminado que se muestra en la pantalla de [VQGAN+CLIP (z+quantize method con augmentations).ipynb](https://colab.research.google.com/drive/1go6YwMFe5MX6XM9tv-cnQiSTU50N9EeT#scrollTo=CppIQlPhhwhs) :
+5. Posteriormente debajo de **"Herramientas para la ejecución"**, encontraramos los **"Parámetros"**, los cuales podemos modificar para que la IA genere la imagen con las características que deseemos. Aquí te dejo una tabla de los parámetros que podemos modificar, su descripción y el texto predeterminado que se muestra en la pantalla de [VQGAN+CLIP (z+quantize method con augmentations).ipynb](https://colab.research.google.com/drive/1go6YwMFe5MX6XM9tv-cnQiSTU50N9EeT#scrollTo=CppIQlPhhwhs):
 
     | Parámetro | Texto por defecto | Descripción |
     | --------- | ----------- | ------------------- |   
